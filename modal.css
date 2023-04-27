@@ -1,0 +1,112 @@
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 25%;
+  top: 22px;
+  width: 50%; /* Full width */
+  height: 565px; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0,0,0,0.2); /* Black w/ opacity */
+}
+.modal-content{
+	padding: 20px;
+}
+.close {
+  color: #000000;
+  float: right;
+  font-size: 18px;
+  font-weight: bold;
+  background: #FFFFFF;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.close:hover,
+.close:focus {
+  color: #2196F3;
+  text-decoration: none;
+  cursor: pointer;
+}
+.close-modal{
+	display: flex;
+	justify-content: end;
+}
+.modal-title{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 23px;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: #212121;
+	margin-bottom: 15px;
+}
+.modal-text{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 14px;
+	letter-spacing: 0.01em;
+	color: #757575;
+	margin-bottom: 5px;
+}
+.modal-input{
+	border: 1px solid rgba(33, 33, 33, 0.2);
+	border-radius: 4px;
+	padding: 10px 15px;
+	width: 100%;
+	margin-bottom: 10px;
+}
+.input-name{
+	background: url(./img/name.svg) no-repeat scroll 10px;
+	padding-left: 30px
+}
+.input-phone{
+	background: url(./img/modal-call.svg) no-repeat scroll 10px;
+	padding-left: 30px
+}
+.input-email{
+	background: url(./img/modal-mail.svg) no-repeat scroll 10px;
+	padding-left: 30px
+}
+.modal-input:hover{
+	border: 1px solid #2196F3;
+	outline: #2196F3;
+}
+.modal-input:focus{
+	border: 1px solid #2196F3;
+	outline: #2196F3;
+}
+.modal-comment{
+	height: 120px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.01em;
+	resize: none;
+}
+/*.modal-input::placeholder{
+	color: green;
+}*/
+.deal-conditions{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	letter-spacing: 0.03em;
+	color: #757575;
+	margin-bottom: 30px;
+}
+.modal-link{
+	color: #2196F3;
+}

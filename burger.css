@@ -1,0 +1,108 @@
+
+.burger-logo:hover{
+  fill: #2196F3;
+}
+.burger{
+  display: none;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  padding: 30px 20px;
+  position: fixed; 
+  z-index: 1; 
+  background: #FFFFFF;
+}
+
+.bg-close {
+  color: #000000;
+  float: right;
+  font-size: 18px;
+  font-weight: bold;
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bg-close:hover,
+.bg-close:focus {
+  color: #2196F3;
+  text-decoration: none;
+  cursor: pointer;
+}
+.close-burger{
+  display: flex;
+  justify-content: end;
+}
+.bg-menu{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 200px;
+}
+.bg-menu-item{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+  letter-spacing: 0.02em;
+  color: #212121;
+  cursor: pointer;
+  text-decoration: none;
+}
+.bg-menu-item:hover{
+  color: #2196F3;
+}
+.bg-phone-link{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  color: #2196F3;
+  margin-bottom: 30px;
+  text-decoration: none;
+}
+.bg-phone-link:hover{
+  scale: 1.05;
+}
+.bg-email-link{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+  color: #757575;
+  margin-bottom: 30px;
+  text-decoration: none;
+}
+.bg-email-link:hover{
+  scale: 1.05;
+}
+.bg-social-link{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+  color: #2196F3;
+  text-decoration: none;
+}
+.bg-social-networks{
+  display: flex;
+  margin-top: 40px;
+}
+.separator{
+  width: 22px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  margin-right: 10px;
+  margin-left: 10px;
+}
+

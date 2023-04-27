@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="./style-portfolio.css" />
+    <link rel="stylesheet" href="./burger.css" />
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+        <div class="header-wrapper">
+          <a href="./index.html"><img src="./img/WebStudio.png"></a>
+          <div class="header-desctop">
+            <nav>
+              <ul class="menu">
+                <li class="menu-item"><a class="link" href="#introducion">Студия</a></li>
+                <li class="menu-item"><a class="link" href="portfolio.html">Портфолио</a></li>
+                <li class="menu-item"><a class="link" href="#">Контакты</a></li>
+              </ul>
+            </nav>
+            <div class="contact-links">
+              <a class="link" href="mailto: info@devstudio.com">
+                <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path class="frame-email" d="M14.5 0H1.50001C0.672854 0 0 0.672853 0 1.50001V10.5C0 11.3271 0.672854 12 1.50001 12H14.5C15.3271 12 16 11.3271 16 10.5V1.50001C16 0.672853 15.3271 0 14.5 0V0ZM14.5 0.999994C14.5679 0.999994 14.6325 1.01409 14.6916 1.0387L8 6.83838L1.30833 1.0387C1.36742 1.01412 1.43204 0.999994 1.49998 0.999994H14.5ZM14.5 11H1.50001C1.22414 11 0.999996 10.7759 0.999996 10.5V2.09521L7.67236 7.87792C7.76661 7.95944 7.8833 7.99999 8 7.99999C8.1167 7.99999 8.23339 7.95948 8.32764 7.87792L15 2.09521V10.5C15 10.7759 14.7759 11 14.5 11V11Z" fill="#757575"/>
+                </svg>   info@devstudio.com</a>
+              <a class="link" href="tel: +38 (096) 111 11 11">
+                <svg width="10" height="16" viewBox="0 0 10 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path class="frame-phone" d="M8.5 0H1.5C0.672848 0 0 0.672848 0 1.5V14.5C0 15.3272 0.672848 16 1.5 16H8.5C9.32715 16 10 15.3272 10 14.5V1.5C10 0.672848 9.32715 0 8.5 0ZM1.5 1H8.5C8.77588 1 9 1.22412 9 1.5V12H1V1.5C1 1.22412 1.22412 1 1.5 1ZM8.5 15H1.5C1.22412 15 1 14.7759 1 14.5V13H9V14.5C9 14.7759 8.77588 15 8.5 15Z" fill="#757575"/></svg>   +38 096 111 11 11</a>
+            </div>
+          </div>
+          <a id="my-burger" class="burger-logo" ><svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M0 2.66667V0H24V2.66667H0ZM0 9.33333H24V6.66667H0V9.33333ZM0 16H24V13.3333H0V16Z" fill="black"/>
+          </svg></a>
+          <div class="burger">
+            <div class="close-burger"><span class="bg-close">&times;</span></div>
+            <ul class="bg-menu">
+                <li><a class="bg-menu-item" href="#introducion">Студия</a></li>
+                <li><a class="bg-menu-item" href="portfolio.html">Портфолио</a></li>
+                <li><a class="bg-menu-item" href="#">Контакты</a></li>
+            </ul>
+            <a class="bg-phone-link" href="tel: +38 (096) 111 11 11">+38 096 111 11 11</a>
+            <br>
+            <a class="bg-email-link" href="mailto: info@devstudio.com">info@devstudio.com</a>
+            <div class="bg-social-networks">
+              <a class="bg-social-link" href="#">Instagram</a>
+              <div class="separator"></div>
+              <a class="bg-social-link" href="#">Twitter</a>
+              <div class="separator"></div>
+              <a class="bg-social-link" href="#">Facebook</a>
+              <div class="separator"></div>
+              <a class="bg-social-link" href="#">LinkdIn</a>
+            </div>
+          </div>
+        </div>
+    </div>
+  </header>
+  <section id="portfolio" class="portfolio">
+    <div class="container">
+      <div class="portfolio-wrapper">
+        <span id="test-button" class="test-button">Here you can look All</span>
+        <span id="test-button-two" class="test-button-two">Here you can look our web-sites</span>
+        <span id="test-button-three" class="test-button-three">Here you can look our applications</span>
+        <span id="test-button-four" class="test-button-four">Here you can look our designs</span>
+        <span id="test-button-five" class="test-button-five">Here you can look marketing-plans</span>
+        <div class="buttons">
+          <button onclick="myFunction()" class="portfolio-button">Все</button>
+          <button onclick="myFunctionTwo()" class="portfolio-button">Веб-сайты</button>
+          <button onclick="myFunctionThree()" class="portfolio-button">Приложения</button>
+          <button onclick="myFunctionFour()" class="portfolio-button">Дизайн</button>
+          <button onclick="myFunctionFive()" class="portfolio-button">Маркетинг</button>
+        </div>
+        <div class="portfolio-cards">
+          <div class="pf-card">
+            <div class="card-overlay">
+              <img class="pf-card-pic" src="./img/pf-card1.png">
+              <div class="card__overlay">
+                <p class="overlay__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+              </div>
+            </div>
+            <h2 class="pf-card-title">Технокряк</h2>
+            <p class="pf-card-text">Веб-сайт</p>
+          </div>
+          <div class="pf-card">
+            <div class="card-overlay">
+              <img class="pf-card-pic" src="./img/pf-card2.png">
+              <div class="card__overlay">
+                <p class="overlay__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>              
+              </div>
+            </div>
+            <h2 class="pf-card-title">Постер New Orlean vs Golden Star</h2>
+            <p class="pf-card-text">Дизайн</p>
+          </div>
+          <div class="pf-card">
+            <div class="card-overlay">
+              <img class="pf-card-pic" src="./img/pf-card3.png">
+              <div class="card__overlay">
+                <p class="overlay__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+              </div>
+            </div>
+            <h2 class="pf-card-title">Ресторан Seafood</h2>
+            <p class="pf-card-text">Приложение</p>
+          </div>
+          <div class="pf-card">
+            <div class="card-overlay">
+              <img class="pf-card-pic" src="./img/pf-card4.png">
+              <div class="card__overlay">
+                <<p class="overlay__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+              </div>
+            </div>
+            <h2 class="pf-card-title">Проект Prime</h2>
+            <p class="pf-card-text">Маркетинг</p>
+          </div>
+          <div class="pf-card">
+            <div class="card-overlay">
+              <img class="pf-card-pic" src="./img/pf-card5.png">
+              <div class="card__overlay">
+                <p class="overlay__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+              </div>
+            </div>
+            <h2 class="pf-card-title">Проект Boxes</h2>
+            <p class="pf-card-text">Приложение</p>
+          </div>
+          <div class="pf-card">
+            <div class="card-overlay">
+              <img class="pf-card-pic" src="./img/pf-card6.png">
+              <div class="card__overlay">
+                <p class="overlay__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+              </div>
+            </div>
+            <h2 class="pf-card-title">Inspiration has no Borders</h2>
+            <p class="pf-card-text">Веб-сайт</p>
+          </div>
+          <div class="pf-card">
+            <div class="card-overlay">
+              <img class="pf-card-pic" src="./img/pf-card7.png">
+              <div class="card__overlay">
+                <p class="overlay__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+              </div>
+            </div>
+            <h2 class="pf-card-title">Издание Limited Edition</h2>
+            <p class="pf-card-text">Дизайн</p>
+          </div>
+          <div class="pf-card">
+            <div class="card-overlay">
+              <img class="pf-card-pic" src="./img/pf-card8.png">
+              <div class="card__overlay">
+                <p class="overlay__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+              </div>
+            </div>
+            <h2 class="pf-card-title">Проект LAB</h2>
+            <p class="pf-card-text">Маркетинг</p>
+          </div>
+          <div class="pf-card">
+            <div class="card-overlay">
+              <img class="pf-card-pic" src="./img/pf-card9.png">
+              <div class="card__overlay">
+                <p class="overlay__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+              </div>
+            </div>
+            <h2 class="pf-card-title">Growing Business</h2>
+            <p class="pf-card-text">Приложение</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+    <footer id="footer" class="footer">
+    <div class="container">
+      <div class="footer-wrapper">
+        <div class="contact-info">
+          <img class="footer-logo" src="./img/WebStudioFooter.png">
+          <p class="address">г. Киев, пр-т Леси Украинки, 26</p>
+          <a class="footer-link" href="mailto: info@devstudio.com">info@devstudio.com</a>
+          <a class="footer-link" href="tel: +38 (096) 111 11 11">+38 096 111 11 11</a>          
+        </div>
+        <div class="follow-container">
+          <h2 class="follow-title">присоединяйтесь</h3>
+          <div class="media">          
+            <a class="ft-link" href="#"><div class="follow-backgraund"><img src="./img/inst.png"></div></a>
+            <a class="ft-link" href="#"><div class="follow-backgraund"><img src="./img/twit.png"></div></a>
+            <a class="ft-link" href="#"><div class="follow-backgraund"><img src="./img/fb-white.png"></div></a>
+            <a class="ft-link" href="#"><div class="follow-backgraund"><img src="./img/in-white.png"></div></a>
+          </div>
+        </div>
+        <div>
+          <h3 class="follow-title">Подпишитесь на рассылку</h3>
+          <form class="footer-form">
+            <input class="footer-email" type="email" placeholder="E-mail" name="email">
+            <a class="submit" href="#">Подписаться<img class="telega" src="./img/telega.png"></a>          
+          </form>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script type="text/javascript">
+    let burgerOpen = document.getElementById('my-burger');
+    let burger = document.querySelector('.burger');
+    let burgerClose = document.querySelector('.bg-close');
+
+    burgerOpen.onclick = function(){
+      burger.style.display = 'block';
+    }
+    burgerClose.onclick = function(){
+      burger.style.display = 'none';
+    }
+  </script>
+  <script type="text/javascript">
+    let element = document.querySelector('.test-button');
+    function myFunction(){
+      element.classList.toggle('test-button');
+    }
+  </script>
+  <script type="text/javascript">
+    let element = document.querySelector('test-button');
+    function myFunctionTwo(){
+      element.classList.toggle('test-button-two');
+    }
+  </script>
+  <script type="text/javascript">
+    let element = document.querySelector('.test-button-three');
+    function myFunctionThree(){
+      element.classList.toggle('test-button-three');
+    }
+  </script>
+  <script type="text/javascript">
+    let element = document.querySelector('.test-button-four');
+    function myFunctionFour(){
+      element.classList.toggle('test-button-four');
+    }
+  </script>
+  <script type="text/javascript">
+    let element = document.querySelector('.test-button-five');
+    function myFunctionFive(){
+      element.classList.toggle('test-button-five');
+    }
+  </script>
+  <script type="text/javascript" src="./modal.js"></script>
+</body>
