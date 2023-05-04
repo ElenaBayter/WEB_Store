@@ -66,13 +66,40 @@
   <section id="portfolio" class="portfolio">
     <div class="container">
       <div class="portfolio-wrapper">
-        <div class="buttons">
-          <button class="portfolio-button">Все</button>
-          <button class="portfolio-button">Веб-сайты</button>
-          <button class="portfolio-button">Приложения</button>
-          <button class="portfolio-button">Дизайн</button>
-          <button class="portfolio-button">Маркетинг</button>
+
+        <div class="tab">
+          <button class="tablinks" onclick="openTab(event, 'All')">Все</button>
+          <button class="tablinks" onclick="openTab(event, 'Web-sites')">Веб-сайты</button>
+          <button class="tablinks" onclick="openTab(event, 'App')">Приложения</button>
+          <button class="tablinks" onclick="openTab(event, 'Design')">Дизайн</button>
+          <button class="tablinks" onclick="openTab(event, 'Marketing')">Маркетинг</button>
         </div>
+
+        <div id="All" class="tabcontent">
+          <h3>Все</h3>
+          <p>In this tab you can see all the progects we are doing.<br><br> Here should mach more another text, just for example, in orden to look how is gonna look on web-page.</p>
+        </div>
+
+        <div id="Web-sites" class="tabcontent">
+          <h3>Веб-сайты</h3>
+          <p>In this tab we will show you all the web-sites made by our studio.<br><br> Here should mach more another text, just for example, in orden to look how is gonna look on web-page.</p> 
+        </div>
+
+        <div id="App" class="tabcontent">
+          <h3>Приложения</h3>
+          <p>Here we offer you to discover our applications.<br><br> Here should mach more another text, just for example, in orden to look how is gonna look on web-page.</p>
+        </div>
+
+        <div id="Design" class="tabcontent">
+          <h3>Дизайн</h3>
+          <p>Here you can see offers from our designers, contact us and we will create unique design for your business.<br><br> Here should mach more another text, just for example, in orden to look how is gonna look on web-page.</p>
+        </div>
+
+        <div id="Marketing" class="tabcontent">
+          <h3>Маркетинг</h3>
+          <p>Here we offer you to discover our marketing plans. Contact us and our managers will offer the best options for you.<br><br> Here should mach more another text, just for example, in orden to look how is gonna look on web-page.</p>
+        </div>
+
         <div class="portfolio-cards">
           <div class="pf-card">
             <div class="card-overlay">
@@ -208,11 +235,24 @@
       burger.style.display = 'none';
     }
   </script>
-<!--   <script type="text/javascript">
-    let element = document.querySelector('.test-button');
-    function myFunction(){
-      element.classList.toggle('test-button');
+  <script type="text/javascript">
+    let tabcontent = document.getElementsByClassName("tabcontent");
+    let tablinks = document.getElementsByClassName("tablinks");
+
+    function openTab(evt, tabName) {
+
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+
+      document.getElementById(tabName).style.display = "block";
+      evt.currentTarget.className += " active";
     }
-  </script> -->
+  </script>
+
   <script type="text/javascript" src="./modal.js"></script>
 </body>
